@@ -1,12 +1,17 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
-  },
-  "devDependencies": {
-    "nuxt": "3.0.0-rc.3"
-  }
+    "private": true,
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview"
+    },
+    "devDependencies": {
+        "@gqty/cli": "^3.2.0",
+        "dotenv-flow": "^3.2.0",
+        "nuxt": "3.0.0-rc.1"
+    },
+    "dependencies": {
+        "@faustjs/core": "^0.15.6"
+    }
 }
